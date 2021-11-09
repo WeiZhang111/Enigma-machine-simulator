@@ -54,7 +54,7 @@ class Rotor(object):
 
     def turn(self, offset=1):
         self.state = chr((ord(self.state) + offset - ord('A')) % 26 + ord('A'))
-        # notchnext = self.state in self.notch
+
 
 
     def at_notch(self):
